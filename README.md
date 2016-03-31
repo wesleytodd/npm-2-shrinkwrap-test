@@ -27,7 +27,7 @@ npm ERR! Please include the following file with any support request:
 npm ERR!     /home/vagrant/npm-2-shrinkwrap-test/apps/app1/npm-debug.log
 ```
 
-As you can see the install path for `mod2` reaches up further than it actually should: `/home/vagrant/mod2` => `/home/vagrant/npm2-shrinkwrap-test/mod2`.  The second time you run it, it sometimes succeeds, I havent pinpointed that yet :( but it probably has something to do with running the re-doing the shrinkwrap.
+As you can see the install path for `mod2` reaches up further than it actually should: `/home/vagrant/mod2` => `/home/vagrant/npm2-shrinkwrap-test/mod2`.  The second time you run it, it sometimes succeeds, I havent pinpointed that yet, but it probably has something to do with running the re-doing the shrinkwrap.
 
 `make shrinkwrap` will re-shrinkwrap which I used to test this in `npm@3.x` where it worked.
 
